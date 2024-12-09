@@ -28,11 +28,26 @@ Clone the Repository
 git clone https://github.com/NageenaS/Chat_Translation_App.git
 cd chat_translation_app
 ```
-3. **Set Up Environment Variables**:
+3. **Deploy with Docker**:
+   You can quickly deploy the application using Docker. Follow these steps:
+   Pull the pre-built image:
+   ```
+   docker pull nageenashaik/chat_translation_app
+   ```
+   - Start the container:
+   ```
+   docker run -d --name chat-translationa-app nageenashaik/chat_translation_app
+   ```
+   - If you're running it in a Docker container:
+   ```
+   docker exec -it chat-translationa-app 
+   ```
+
+4. **Set Up Environment Variables**:
    
 Create a .env file in the root directory
 
-4. **Database Schema**:
+5. **Database Schema**:
 
 To save messages, set up the database schema using your mysql credentials
 
@@ -47,5 +62,11 @@ The application will be accessible at:
 http://localhost:5000/
 ```
 
+## Usage
 
+After launching the application, you can:
+
+- Send WhatsApp messages via Twilio with optional translation to the recipient's preferred language.
+
+- View the sent message history and status through the "View Messages" section.
 
