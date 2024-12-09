@@ -31,6 +31,7 @@ cd chat_translation_app
 3. **Set Up Environment Variables**:
    
 Create a .env file in the root directory
+
 5. **Database Schema**:
 
 To save messages, set up the database schema using your mysql credentials
