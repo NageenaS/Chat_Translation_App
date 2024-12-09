@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Messages</title>
+</head>
+<body>
+    <h1>Stored Messages</h1>
+    <table border="1">
+        <tr>
+            <th>Sender</th>
+            <th>Recipient</th>
+            <th>Preferred Language</th>
+            <th>Original Message</th>
+            <th>Translated Message</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for message in messages %}
+        <tr>
+            <td>{{ message[0] }}</td>  <!-- Sender -->
+            <td>{{ message[1] }}</td>  <!-- Recipient -->
+            <td>{{ languages.get(message[4], message[4]) }}</td>  <!-- Preferred Language -->
+            <td>{{ message[2] }}</td>  <!-- Original Message -->
+            <td>{{ message[3] }}</td>  <!-- Translated Message -->
+            <td>{{ message[5] }}</td>  <!-- Timestamp -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
