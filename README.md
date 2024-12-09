@@ -68,9 +68,8 @@ After launching the application, you can:
 
 - Send WhatsApp messages via Twilio with optional translation to the recipient's preferred language.
 - View the sent message history and status through the "View Messages" section.
-
-  ![Screenshot 2024-11-19 124458](https://github.com/user-attachments/assets/f29de288-eac8-41c7-a89f-a052e03027a1)
   ![Screenshot 2024-11-18 170853](https://github.com/user-attachments/assets/9ec42476-08cf-4437-a6bf-0b71f604bd09)
+  ![Screenshot 2024-11-19 124458](https://github.com/user-attachments/assets/f29de288-eac8-41c7-a89f-a052e03027a1)
   ![Screenshot 2024-11-19 124549](https://github.com/user-attachments/assets/9475f32e-4d84-45ed-9f13-5da11895a591)
 
 
