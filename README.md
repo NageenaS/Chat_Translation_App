@@ -43,8 +43,7 @@ After setting up the dependencies and database, run the application using:
 python app.py
 ```
 The application will be accessible at:
-```
-bash
+```bash
 http://localhost:5000/
 ```
 
