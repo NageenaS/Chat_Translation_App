@@ -22,14 +22,17 @@ To run this project, install the required dependencies:
 pip install flask requests twilio mysql-connector-python python-dotenv
 ```
 2. **Installation**:
+   
 Clone the Repository
 ```bash
 git clone https://github.com/NageenaS/Chat_Translation_App.git
 cd chat_translation_app
 ```
 3. **Set Up Environment Variables**:
+   
 Create a .env file in the root directory
-4. **Database Schema**:
+5. **Database Schema**:
+
 To save messages, set up the database schema using your mysql credentials
 
 # Run the App
