@@ -1,6 +1,6 @@
-# Chat_Translation_App
+# Chat Translation App
 
-This is a Flask-based web application that allows users to send WhatsApp messages with translation support. It integrates Google Translate API, Twilio WhatsApp API, and MySQL to provide a seamless user experience. The app enables users to select a language, translate a message, save it to a database, and send it via WhatsApp.
+A Flask-based web application designed to facilitate sending WhatsApp messages with built-in translation capabilities. This application leverages the Google Translate API, Twilio WhatsApp API, and MySQL database to deliver a seamless and efficient user experience. Users can select a language, translate their message, store it in the database, and send it via WhatsApp with ease.
 
 # Features
 - Translate Messages: Users can translate messages into multiple supported languages using the Google Translate API.
