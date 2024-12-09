@@ -32,7 +32,7 @@ cd chat_translation_app
    
 Create a .env file in the root directory
 
-5. **Database Schema**:
+4. **Database Schema**:
 
 To save messages, set up the database schema using your mysql credentials
 
@@ -46,4 +46,6 @@ The application will be accessible at:
 ```bash
 http://localhost:5000/
 ```
+
+
 
