@@ -74,6 +74,3 @@ After launching the application, you can:
 ## Docker Hub
 Docker Hub is a cloud-based repository that allows users to store, share, and manage Docker images. The StockApp is also available on Docker Hub. 
 You can find the image [here](https://hub.docker.com/r/nageenashaik/chat_translation_app) (replace with your actual Docker Hub link). This allows you to easily deploy the application without building the image locally.
-
-
-
