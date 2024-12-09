@@ -15,20 +15,21 @@ This is a Flask-based web application that allows users to send WhatsApp message
 - Environment Variables: Managed with python-dotenv
   
 # Requirements
-1. **Dependencies**
+1. **Dependencies**:
+
 To run this project, install the required dependencies:
 ```bash
 pip install flask requests twilio mysql-connector-python python-dotenv
 ```
-2. **Installation**
+2. **Installation**:
 Clone the Repository
 ```bash
 git clone https://github.com/NageenaS/Chat_Translation_App.git
 cd chat_translation_app
 ```
-3. **Set Up Environment Variables**
+3. **Set Up Environment Variables**:
 Create a .env file in the root directory
-4. **Database Schema**
+4. **Database Schema**:
 To save messages, set up the database schema using your mysql credentials
 
 # Run the App
